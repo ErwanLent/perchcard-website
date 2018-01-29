@@ -1,3 +1,32 @@
+body {
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #DDF7FF),
+		color-stop(1, #6A6A6A)
+	);
+	background-image: -o-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
+	background-image: -moz-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
+	background-image: -webkit-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
+	background-image: -ms-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
+	background-image: linear-gradient(to bottom, #DDF7FF 0%, #6A6A6A 100%);
+}
+
 .navbar .logo {
 	max-width: 200px;
+}
+
+.ui.menu.navbar	{
+	height: 70px;
+	margin-top: 50px;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+.ui.menu.navbar .item,
+.ui.menu.navbar .item:before {
+	border: none;
+	background: none;
 }
