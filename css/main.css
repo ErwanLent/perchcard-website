@@ -17,13 +17,13 @@ body {
 		left top,
 		left bottom,
 		color-stop(0, #DDF7FF),
-		color-stop(1, #6A6A6A)
+		color-stop(1, #fff)
 	);
-	background-image: -o-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
-	background-image: -moz-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
-	background-image: -webkit-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
-	background-image: -ms-linear-gradient(bottom, #DDF7FF 0%, #6A6A6A 100%);
-	background-image: linear-gradient(to bottom, #DDF7FF 0%, #6A6A6A 100%);
+	background-image: -o-linear-gradient(bottom, #DDF7FF 0%, #fff 100%);
+	background-image: -moz-linear-gradient(bottom, #DDF7FF 0%, #fff 100%);
+	background-image: -webkit-linear-gradient(bottom, #DDF7FF 0%, #fff 100%);
+	background-image: -ms-linear-gradient(bottom, #DDF7FF 0%, #fff 100%);
+	background-image: linear-gradient(to bottom, #DDF7FF 0%, #fff 100%);
 }
 
 .navbar .logo {
@@ -60,5 +60,30 @@ body {
 }
 
 .hero {
-	margin-top: 100px;
+	margin-top: 75px;
+}
+
+.hero h1,
+.hero p  {
+	font-family: 'varela_roundregular';
+}
+
+.hero h1 {
+	font-size: 35px;
+	margin-bottom: 6px;
+}
+
+.hero p {
+	margin-bottom: 25px;
+	font-size: 11px;
+}
+
+.hero .ui.positive.button {
+    background-color: #34DE7F;
+    color: white;
+    font-size: 10px;
+    min-width: 165px;
+    font-weight: normal;
+    border-radius: 2px;
+    padding: 12px 0px;
 }
