@@ -111,3 +111,36 @@ body {
     margin-top: 115px;
     margin-left: 25px;
 }
+
+.phone-with-card {
+	max-width: 365px;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.example-hero h5,
+.example-hero p {
+    font-family: 'varela_roundregular';
+    color: #575D63;
+}    
+
+
+.example-hero h5 {
+	margin-top: 50px;
+    margin-bottom: 7px;
+}
+
+.example-hero p {
+	font-size: 12px;
+	max-width: 300px;
+}
+
+.example-hero {
+	margin-top: 30px;
+}
