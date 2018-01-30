@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('/fonts/varelaround-regular-webfont.woff2') format('woff2'),
+         url('/fonts/varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'varela_roundregular';
+	color: #575D63;
+}
+
 body {
 	background-image: -webkit-gradient(
 		linear,
@@ -14,19 +27,38 @@ body {
 }
 
 .navbar .logo {
-	max-width: 200px;
+    max-width: 90px;
+    height: auto;
+    object-fit: contain;
 }
 
 .ui.menu.navbar	{
 	height: 70px;
-	margin-top: 50px;
+	margin-top: 20px;
     box-shadow: none;
     border: none;
     background: none;
 }
 
+.ui.menu.navbar	.ui.container {
+	max-width: 900px;
+}
+
 .ui.menu.navbar .item,
+.ui.menu.navbar .item:hover,
 .ui.menu.navbar .item:before {
 	border: none;
 	background: none;
+	color: #575D63;
+	font-size: 10px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.ui.container {
+	text-align: center;
+}
+
+.hero {
+	margin-top: 100px;
 }
