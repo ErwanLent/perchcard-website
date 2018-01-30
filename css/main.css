@@ -47,7 +47,7 @@ body {
 }
 
 .ui.menu.navbar	.ui.container {
-	max-width: 900px;
+	max-width: 900px !important;
 }
 
 .ui.menu.navbar .item,
@@ -66,7 +66,7 @@ body {
 }
 
 .hero {
-	margin-top: 75px;
+	margin-top: 70px;
 }
 
 .hero h1,
@@ -148,5 +148,5 @@ body {
 }
 
 .example-hero {
-	margin-top: 30px;
+	margin-top: 35px;
 }
