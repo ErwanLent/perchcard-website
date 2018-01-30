@@ -11,6 +11,12 @@
 	color: #575D63;
 }
 
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 body {
 	background-image: -webkit-gradient(
 		linear,
