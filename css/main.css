@@ -11,6 +11,10 @@
 	color: #575D63;
 }
 
+html {
+	zoom: 0.9;
+}
+
 html,body {
     margin: 0;
     padding: 0;
@@ -98,6 +102,16 @@ body {
     font-weight: normal;
     border-radius: 2px;
     padding: 12px 0px;
+}
+
+.example-hero .ui.positive.button {
+    background-color: #34DE7F;
+    color: white;
+    font-size: 12px;
+    width: 75px;
+    font-weight: normal;
+    border-radius: 2px;
+    padding: 7px;
 }
 
 .plant {
@@ -205,7 +219,7 @@ body {
 
 .example-hero p {
 	font-size: 12px;
-	max-width: 300px;
+	max-width: 280px;
 }
 
 .example-hero {
@@ -232,6 +246,11 @@ body {
 .rules-section {
 	margin-top: 135px;
 	margin-bottom: 170px;
+}
+
+.example-hero-input {
+	font-size: 10px;
+	min-width: 175px;
 }
 
 footer {
