@@ -125,15 +125,15 @@ body {
 }
 
 .coffee {
-    width: 250px;
-    height: 250px;
+    width: 265px;
+    height: 265px;
     position: absolute;
     right: 0;
     background: url(/images/coffee.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -165px;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .wallet {
@@ -148,14 +148,15 @@ body {
 }
 
 .keys {
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     position: absolute;
-    right: 10%;
+    right: 50%;
     background: url(/images/keys.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: -100px;
+    margin-top: -150px;
+    margin-right: -475px;
 }
 
 .rule-image {
@@ -229,7 +230,8 @@ body {
 }
 
 .rules-section {
-	margin-top: 100px;s
+	margin-top: 135px;
+	margin-bottom: 170px;
 }
 
 footer {
