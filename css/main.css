@@ -17,6 +17,11 @@ html,body {
 }
 
 body {
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
 	background-image: -webkit-gradient(
 		linear,
 		left top,
@@ -129,6 +134,37 @@ body {
     background-size: contain;
     margin-top: 115px;
     margin-left: 25px;
+}
+
+.keys {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10%;
+    background: url(/images/keys.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -100px;
+}
+
+.rule-image {
+    width: 500px;
+    height: 175px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin: 50px auto;
+}
+
+.rule-allowance {
+    background: url(/images/rule-allowance.png);
+}
+
+.rule-gym {
+    background: url(/images/rule-gym.png);
+}
+
+.rule-rent {
+    background: url(/images/rule-rent.png);
 }
 
 .phone-with-card {
