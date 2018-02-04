@@ -1,4 +1,19 @@
+const carousel_images = [
+	'rule-allowance',
+	'rule-treat',
+	'rule-rent'
+];
+
 $(document).ready(() => {
+
+	$('.slide-item').click(function() {
+		const slideNumber = $(this).attr('number');
+		$('.slide-item').removeClass('active');
+		$(this).addClass('active');
+
+		$('#rule-image').removeClass();
+		$('#rule-image').addClass(carousel_images[slideNumber]);
+	});
 
     $('#sign-up-button').click(() => $('#sign-up-modal').modal({
         onApprove: function() {
